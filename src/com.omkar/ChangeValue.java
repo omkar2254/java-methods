@@ -9,6 +9,6 @@ public class ChangeValue {
     System.out.println(Arrays.toString(arr));
   }
   static void change(int[] nums){
-    nums[0] = 5;
+    nums[0] = 5; //If you make a change to the object via this ref variable it will change the original object
   }
 }
